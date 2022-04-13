@@ -1,0 +1,71 @@
+export const users = [
+    {
+      "guid": "1db9d44d-5f1f-4d20-9630-b79f83877cc0",
+      "name": "Roqueheli Arenas",
+      "email": "roqueheliarenas@gmail.com",
+      "password": "abcd1234",
+      "role": "user",
+      "isActive": true,
+      "balance": "$3,053.65",
+      "picture": "http://placehold.it/32x32",
+      "age": 36,
+      "gender": "female",
+      "company": "TRASOLA",
+      "phone": "+56 (965) 483-3414",
+      "address": "428 Vermont Court, Churchill, Kansas, 9768"
+    },
+    {
+      "guid": "b0a712f8-3d26-4600-8812-8a12e74f5431",
+      "name": "Cristina Marín",
+      "email": "cgabrielamarin@gmail.com",
+      "password": "abcd1234",
+      "role": "admin",
+      "isActive": false,
+      "balance": "$1,294.96",
+      "picture": "http://placehold.it/32x32",
+      "age": 28,
+      "gender": "female",
+      "company": "ENERSAVE",
+      "phone": "+56 (925) 419-3004",
+      "address": "350 Kensington Walk, Gorham, American Samoa, 2340"
+    },
+    {
+      "guid": "c8623b5a-4d06-4c3f-a7be-1e06020be9b7",
+      "isActive": true,
+      "balance": "$1,163.43",
+      "picture": "http://placehold.it/32x32",
+      "age": 37,
+      "name": "Deanne Mckinney",
+      "gender": "female",
+      "company": "STRALUM",
+      "email": "deannemckinney@stralum.com",
+      "phone": "+56 (955) 480-3352",
+      "address": "264 Eagle Street, Enoree, New York, 4230"
+    },
+    {
+      "guid": "94767cab-6d8f-4c64-9f1e-7422a9ed20c7",
+      "isActive": true,
+      "balance": "$2,405.99",
+      "picture": "http://placehold.it/32x32",
+      "age": 34,
+      "name": "Anna Gentry",
+      "gender": "female",
+      "company": "NIKUDA",
+      "email": "annagentry@nikuda.com",
+      "phone": "+56 (831) 542-2608",
+      "address": "369 Grant Avenue, Springhill, Colorado, 7925"
+    },
+    {
+      "guid": "0e8bd666-5db8-4c83-810e-5df232419541",
+      "isActive": true,
+      "balance": "$2,389.70",
+      "picture": "http://placehold.it/32x32",
+      "age": 27,
+      "name": "Dixie Hodge",
+      "gender": "female",
+      "company": "SNIPS",
+      "email": "dixiehodge@snips.com",
+      "phone": "+56 (835) 600-2482",
+      "address": "745 Lawton Street, Crucible, Puerto Rico, 2949"
+    }
+  ];
