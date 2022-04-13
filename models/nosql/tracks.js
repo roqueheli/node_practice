@@ -23,22 +23,22 @@ const TracksSchema = new mongoose.Schema(
     }
 );
 
-// TracksSchema.statics.findAllData = function () {
-//     const joinData = this.aggregate([
-//         {
-//             $lookup: {
-//                 from: 'storages',
-//                 localField: 'mediaId',
-//                 foreignField: '_id',
-//                 as: 'audio'
-//             },
-//         },
-//         // {
-//         //     $unwind: '$audio'
-//         // }
-//     ]);
-//     return joinData;
-// }
+TracksSchema.statics.findAllData = function () {
+    const joinData = this.aggregate([
+        {
+            $lookup: {
+                from: 'storages',
+                localField: 'mediaId',
+                foreignField: '_id',
+                as: 'audio'
+            },
+        },
+        // {
+        //     $unwind: '$audio'
+        // }
+    ]);
+    return joinData;
+}
 
 TracksSchema.plugin(mongooseDelete, { overrideMethod: "all" });
 module.exports = mongoose.model('tracks', TracksSchema);
